@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Easy to add and display wp slick image slider and carousel. Also added Gutenberg block support.
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 3.7.1
+ * Version: 3.7.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugins/wp-slick-slider-and-image-carousel/
  *
  * @package WP Slick Slider and Image Carousel
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined('WPSISAC_VERSION') ) {
-	define( 'WPSISAC_VERSION', '3.7.1' ); // Plugin version
+	define( 'WPSISAC_VERSION', '3.7.2' ); // Plugin version
 }
 if( ! defined( 'WPSISAC_DIR' ) ) {
 	define( 'WPSISAC_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -43,11 +43,11 @@ if( ! defined( 'WPSISAC_PLUGIN_LINK_UPGRADE' ) ) {
 }
 
 if( ! defined( 'WPSISAC_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPSISAC_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPSISAC_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPSISAC_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPSISAC_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Features-PRO'); // Plugin link
+	define('WPSISAC_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

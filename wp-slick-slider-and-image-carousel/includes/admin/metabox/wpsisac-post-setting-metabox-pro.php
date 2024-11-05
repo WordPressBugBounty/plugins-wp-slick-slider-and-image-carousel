@@ -13,11 +13,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <!-- <div class="pro-notice"><strong><?php // echo sprintf( __( 'Utilize this <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'wp-slick-slider-and-image-carousel'), WPSISAC_PLUGIN_LINK_UNLOCK); ?></strong></div> -->
 
-<div class="pro-notice">
-	<strong>
-		<?php echo sprintf( __( 'Try All These <a href="%s" target="_blank">PRO Features in Essential Bundle Free For 5 Days.</a>', 'wp-slick-slider-and-image-carousel'), WPSISAC_PLUGIN_LINK_UNLOCK); ?>
-	</strong>
+<div class="wpsisac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPSISAC_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 </div>
+
+<!-- <div class="pro-notice">
+	<strong>
+		<?php //echo sprintf( __( 'Try All These <a href="%s" target="_blank">PRO with Early Back Friday Deals on lifetime plan FLAT $100 USD OFF.</a>', 'wp-slick-slider-and-image-carousel'), WPSISAC_PLUGIN_LINK_UNLOCK); ?>
+	</strong>
+</div> -->
 
 <table class="form-table wpsisac-metabox-table">
 	<tbody>

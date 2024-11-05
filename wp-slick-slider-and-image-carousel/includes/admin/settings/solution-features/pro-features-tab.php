@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wpsisac_themes_tabs" class="wpsisac-vtab-cnt wpsisac_themes_tabs wpsisac-clearfix">
+	
+	<div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<!-- Start - Slick Slider - Features -->
 	<div class="wpsisac-features-section">
 		<div class="wpsisac-sf-center">
@@ -56,14 +61,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpsisac-deal-offer-wrap">
+	<!-- <div class="wpsisac-deal-offer-wrap">
 		<div class="wpsisac-deal-offer"> 
 			<div class="wpsisac-inn-deal-offer">
 				<h3 class="wpsisac-inn-deal-hedding"><span>Try Slick Slider Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpsisac-deal-free-offer">
-				<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpsisac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpsisac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 </div>
