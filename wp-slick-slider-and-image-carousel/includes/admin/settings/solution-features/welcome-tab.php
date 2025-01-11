@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="wpsisac-black-friday-banner-wrp" style="background:#e1ecc8;padding: 20px 20px 40px; border-radius:5px; text-align:center;margin-bottom: 40px;">
 		<h2 style="font-size:30px; margin-bottom:10px;"><span style="color:#0055fb;">WP Slick Slider and Image Carousel</span> is included in <span style="color:#0055fb;">Essential Plugin Bundle</span> </h2> 
-		<h4 style="font-size: 18px;margin-top: 0px;color: #ff5d52;margin-bottom: 24px;">Now get Designs, Optimization, Security, Backup, Migration and Solution @ one stop. </h4>
+		<h4 style="font-size: 18px;margin-top: 0px;color: #ff5d52;margin-bottom: 24px;">Now get Designs, Optimization, Security, Backup, Migration Solutions @ one stop. </h4>
 
 		<div class="wpsisac-black-friday-feature">
 
