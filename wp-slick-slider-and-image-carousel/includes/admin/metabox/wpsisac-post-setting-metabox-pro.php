@@ -13,9 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <!-- <div class="pro-notice"><strong><?php // echo sprintf( __( 'Utilize this <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'wp-slick-slider-and-image-carousel'), WPSISAC_PLUGIN_LINK_UNLOCK); ?></strong></div> -->
 
-<div class="wpsisac-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPSISAC_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-</div>
+<!-- <div class="wpsisac-black-friday-banner-wrp">
+		<a href="<?php //echo esc_url( WPSISAC_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php //echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+</div> -->
+
+	<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get get Designs, Optimization, Security, Backup, Migration and Solutions @ one stop.', 'countdown-timer-ultimate'), WPCDT_PLUGIN_LINK_UNLOCK); ?></strong>
 
 <!-- <div class="pro-notice">
 	<strong>

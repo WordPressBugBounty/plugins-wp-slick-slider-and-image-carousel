@@ -48,10 +48,10 @@ class Wpsisac_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __( 'How it works, our plugins and offers', 'wp-slick-slider-and-image-carousel' ), __( 'How It Works', 'wp-slick-slider-and-image-carousel' ), 'manage_options', 'wpsisacm-designs', array( $this, 'wpsisacm_designs_page' ) );
 
 		// Setting page
-		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __( 'Overview - WP Slick Slider and Image Carousel', 'wp-slick-slider-and-image-carousel' ), '<span style="color:#2ECC71">'. __( 'Overview', 'wp-slick-slider-and-image-carousel' ).'</span>', 'manage_options', 'wpsisac-solutions-features', array( $this, 'wpsisac_solutions_features_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __( 'Overview - WP Slick Slider and Image Carousel', 'wp-slick-slider-and-image-carousel' ), __( 'Overview', 'wp-slick-slider-and-image-carousel' ), 'manage_options', 'wpsisac-solutions-features', array( $this, 'wpsisac_solutions_features_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __( 'Upgrade To PRO - WP Slick Slider and Image Carousel', 'wp-slick-slider-and-image-carousel' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO - Early Back Friday Deals', 'wp-slick-slider-and-image-carousel' ).'</span>', 'manage_options', 'wpsisac-premium', array( $this, 'wpsisac_premium_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __( 'Upgrade To PRO - WP Slick Slider and Image Carousel', 'wp-slick-slider-and-image-carousel' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'wp-slick-slider-and-image-carousel' ).'</span>', 'manage_options', 'wpsisac-premium', array( $this, 'wpsisac_premium_page' ) );
 	}
 
 	/**

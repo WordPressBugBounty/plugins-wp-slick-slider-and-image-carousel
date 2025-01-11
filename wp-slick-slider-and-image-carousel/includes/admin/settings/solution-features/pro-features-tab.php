@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpsisac_themes_tabs" class="wpsisac-vtab-cnt wpsisac_themes_tabs wpsisac-clearfix">
 	
-	<div class="wpsisac-black-friday-banner-wrp">
-			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php // echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<!-- Start - Slick Slider - Features -->
 	<div class="wpsisac-features-section">
@@ -72,7 +72,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpsisac-black-friday-banner-wrp">
-			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php // echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 </div>

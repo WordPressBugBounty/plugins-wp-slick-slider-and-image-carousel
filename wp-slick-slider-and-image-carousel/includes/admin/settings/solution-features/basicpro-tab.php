@@ -13,9 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 <div id="wpsisac_basic_tabs" class="wpsisac-vtab-cnt wpsisac_basic_tabs wpsisac-clearfix">
 	
-	<div class="wpsisac-black-friday-banner-wrp">
-			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php //echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<h3 class="wpsisac-basic-heading">Compare <span class="wpsisac-blue">"WP Slick Slider and Image Carousel"</span> Basic VS Pro</h3>
 
@@ -218,8 +218,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpsisac-black-friday-banner-wrp">
-			<a href="<?php echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpsisac-black-friday-banner-wrp">
+			<a href="<?php // echo esc_url( WPSISAC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPSISAC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 </div>
