@@ -3,7 +3,7 @@ Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan
 Tags: slick image slider, responsive header image slider, carousel slider, responsive slider, wp header image slider
 Requires at least: 4.0
 Tested up to: 6.7.1
-Stable tag: 3.7.4
+Stable tag: 3.7.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -169,6 +169,9 @@ Where designs are : design-1, design-2, design-3, design-4, design-5. You can us
 9. Also added Gutenberg block support.
 
 == Changelog ==
+
+= 3.7.5 (16, January 2024) =
+* [*] Fixed variable issue.
 
 = 3.7.4 (11, January 2024) =
 * [*] Check compatibility with WordPress version 6.7.1.
