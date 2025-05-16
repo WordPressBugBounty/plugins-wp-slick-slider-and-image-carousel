@@ -5,12 +5,12 @@
  * Text Domain: wp-slick-slider-and-image-carousel
  * Domain Path: /languages/
  * Description: Easy to add and display wp slick image slider and carousel. Also added Gutenberg block support.
- * Author: WP OnlineSupport, Essential Plugin
- * Version: 3.7.5
- * Author URI: https://www.essentialplugin.com/wordpress-plugins/wp-slick-slider-and-image-carousel/
+ * Author: Essential Plugin
+ * Version: 3.7.6
+ * Author URI: https://www.essentialplugin.com
  *
  * @package WP Slick Slider and Image Carousel
- * @author Essential Plugin, WP OnlineSupport
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined('WPSISAC_VERSION') ) {
-	define( 'WPSISAC_VERSION', '3.7.5' ); // Plugin version
+	define( 'WPSISAC_VERSION', '3.7.6' ); // Plugin version
 }
 if( ! defined( 'WPSISAC_DIR' ) ) {
 	define( 'WPSISAC_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -29,23 +29,12 @@ if( ! defined( 'WPSISAC_URL' ) ) {
 if( ! defined( 'WPSISAC_POST_TYPE' ) ) {
 	define( 'WPSISAC_POST_TYPE', 'slick_slider' ); // Plugin post type
 }
-// if( ! defined( 'WPSISAC_META_PREFIX' ) ) {
-// 	define( 'WPSISAC_META_PREFIX', '_wpsisac_' ); // Plugin post type
-// }
-// if( ! defined( 'WPSISAC_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define('WPSISAC_PLUGIN_BUNDLE_LINK','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Welcome-Screen'); // Plugin link
-// }
-// if( ! defined( 'WPSISAC_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WPSISAC_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Features-PRO'); // Plugin link
-// }
 if( ! defined( 'WPSISAC_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WPSISAC_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Upgrade-PRO'); // Plugin Check link
 }
-
 if( ! defined( 'WPSISAC_PLUGIN_BUNDLE_LINK' ) ) {
 	define('WPSISAC_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Welcome-Screen'); // Plugin link
 }
-
 if( ! defined( 'WPSISAC_PLUGIN_LINK_UNLOCK' ) ) {
 	define('WPSISAC_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Slick-Slider&utm_campaign=Features-PRO'); // Plugin link
 }
