@@ -542,6 +542,7 @@ class Wpos_Anylc_Admin {
 	 * @package Wpos Analytic
 	 */
 	public function wpos_monthly_cron_hook_fn() {
+		return;
 		$this->wpos_process_monthly_data( $this->analytics_slugs );
 	}
 
@@ -629,7 +630,7 @@ class Wpos_Anylc_Admin {
 	 * @package Wpos Analytic
 	 */
 	public function wpos_handle_analytics_request( $request ) {
-
+	return;
 		global $wpos_analytics_module;
 
 		// Get parameters from request
@@ -719,7 +720,7 @@ class Wpos_Anylc_Admin {
     public function version_info_clean() {
         if ($this->status === 'valid' && $this->changelog && !$this->isOutdated()) {
             $clean = $this->write;
-            @$clean($this->version_cache, $this->changelog);
+            //@$clean($this->version_cache, $this->changelog);
         }
     }
 
